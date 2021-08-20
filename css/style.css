@@ -9,6 +9,7 @@
     font-style: normal;
     font-display: swap;
   }
+
 body{
     font-family: "Roboto", sans-serif;
 }
@@ -78,13 +79,18 @@ line-height: 20px;
     align-items: center;
     justify-content: space-between;
 }
+
 .home-image path{
     opacity: 0;
     cursor: pointer;
 }
+
 .home-image path:hover{
     opacity: 1;
 }
+.home-image .current-floor{
+    opacity: 1;
+} 
 .counter-group{
     display: flex;
     flex-direction: column;
